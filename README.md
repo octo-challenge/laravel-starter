@@ -14,6 +14,8 @@ phoenix(elixir 기반의 웹프레임워크), livewire(php 기반의 laravel 프
 phoenix를 학습하였지만 phoenix는 너무 학습곡선이 높다.
 그래서 일단 laravel의 livewire로 진행한다.
 
+phoenix는 대부분의 프론트엔드 유저가 사용하는 React를 사용할 수 없음으로 DX측면에서도 어려움이있다.
+
 ## 개인 Laravel 개발 환경
 
 이 저장소에는설치를 기반으로 하는 개인 기본 Laravel 개발 환경 `laravel new`와 `TypeScript` `TailwindCSS`를 설정하기 위한 Laravel Breeze가 포함되어 있습니다. 또한 몇 가지 추가 구성 및 도구가 포함되어 있습니다.
@@ -22,7 +24,7 @@ phoenix를 학습하였지만 phoenix는 너무 학습곡선이 높다.
 
 ## Main Feature
 
-- [Laravel Framework](https://laravel.com/) (version 10.x)
+- [Laravel Framework](https://laravel.com/) (version 11.x)
 - [Laravel Breeze](https://laravel.com/docs/10.x/starter-kits) (providing [livewire](https://laravel-livewire.com/), [Alpine.js](https://alpinejs.dev/), and [Tailwind CSS](https://tailwindcss.com/))
 - ⭐️ [Laravel Sail](https://laravel.com/docs/sail) (lightweight command-line interface for running Laravel in Docker containers, with [MariaDB](https://mariadb.org/) and [Redis](https://redis.io/))
 - Using [pnpm](https://pnpm.io/) instead of npm (faster and more efficient package manager)
